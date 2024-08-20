@@ -1,0 +1,286 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero nav {
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:center;
+}
+
+.hero a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+    padding: 10px; /* Adiciona padding ao link para espaço adicional */
+    display: inline-block; /* Necessário para ajustar o tamanho do balão ao texto */
+}
+
+nav .balloon {
+    display: inline-block; /* Garante que o botão seja tratado como uma caixa */
+    padding: 10px 40px; /* Espaçamento interno do botão */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px; /* Tamanho do texto */
+    color: white; /* Cor do texto */
+    background-color: #061F4E; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 15px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+    margin: 10px;
+}
+
+nav .special-spacing {
+    display: inline-block; /* Garante que o botão seja tratado como uma caixa */
+    padding: 22px 45px; /* Espaçamento interno do botão */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px; /* Tamanho do texto */
+    color: white; /* Cor do texto */
+    background-color: #061F4E; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 15px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+    margin-left: 250px; /* Ajuste o valor conforme necessário */
+}
+
+.special-spacing:hover {
+    background-color: #e70000; /* Cor de fundo ao passar o mouse */
+    color:#f1f1f1
+}
+  
+.special-spacing:active {
+    background-color: #e70000; /* Cor de fundo ao clicar */
+}
+
+.balloon:hover {
+    background-color: #f0eded; /* Cor de fundo ao passar o mouse */
+    color:#070707
+}
+  
+.balloon:active {
+    background-color: #f0eded; /* Cor de fundo ao clicar */
+}
+
+.hero {
+    background-color: #061F4E;
+    color: #fff;
+    text-align: center;
+    padding: 1px 20px;
+}
+
+.hero h1{
+    padding: 30px;
+    font-size: 50px;
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 15px;
+}
+
+.hero p {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100px;
+    font-style: italic;
+    font-size:  18px;
+}
+
+.hero img {
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.sobre-nos {
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.section-partners {
+    padding: 50px 20px;
+    text-align:center;
+}
+
+.section-partners img {
+    max-width: 120px;
+    margin-top: 40px;
+    padding: 50px;
+}
+
+.service img {
+    max-width: 500px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.service {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 300px;
+    margin: 5px 60px;
+    width: 100%
+}
+
+.service-img-left, .service-img-right {
+    max-width: 120px;
+    margin-top: 20px;
+    
+}
+
+.service-text {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.topicos-1 {
+    display:block;
+    text-align:left;
+}
+
+.topicos-2 {
+    display:block;
+    text-align:left;
+    position: relative; /* Permite o uso de top, right, bottom, left */
+    top: 0; /* Move o elemento para cima ou para baixo */
+    left: 25px; /* Move o elemento para a esquerda ou direita */
+    transform: translate(0, 0); /* Pode ser usado para deslocar o elemento */
+}
+
+.topicos-3 {
+    display:block;
+    text-align:left;
+    position: relative; /* Permite o uso de top, right, bottom, left */
+    top: 0; /* Move o elemento para cima ou para baixo */
+    left: 25px; /* Move o elemento para a esquerda ou direita */
+    transform: translate(0, 0); /* Pode ser usado para deslocar o elemento */
+}
+  
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testimonial-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.stars {
+    font-size: 1.2em;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.testimonial-box p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-title h4 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.name-title p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9em;
+}
+
+
+.redes-sociais {
+    padding: 50px 20px;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contato {
+    background-color: #fdfdfd;
+    padding: 50px 0;
+}
+
+#contato .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 50px; /* Adiciona espaçamento entre as caixas */
+}
+
+.contato-item {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: center;
+}
+
+.contato-item p {
+    color: #030303;
+}
+
+.contato-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #061F4E;
+    color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero, .section-partners, .sobre-nos, .service, .testimonial-container {
+    visibility: hidden;
+}
+
+/* Ajustes gerais para mobile */
+@media (max-width: 768px) {
+    body {
+        font-size: 8px; /* Reduzir tamanho da fonte para telas menores */
+}}
