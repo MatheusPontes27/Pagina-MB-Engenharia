@@ -131,7 +131,7 @@ nav .special-spacing {
     flex-direction:row;
     align-items: center;
     margin-left: 300px;
-    margin: 5px 60px;
+    margin: 5px 40px;
     width: 100%
 }
 
@@ -143,7 +143,7 @@ nav .special-spacing {
 
 .service-text {
     width: 60%;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
