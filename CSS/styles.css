@@ -280,7 +280,154 @@ nav .special-spacing {
 }
 
 /* Ajustes gerais para mobile */
+
 @media (max-width: 768px) {
-    body {
+    .hero a {
         font-size: 8px; /* Reduzir tamanho da fonte para telas menores */
+        padding: 9px;
+        margin: auto;
 }}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 20px; /* Reduzir tamanho da fonte para telas menores */
+        padding: 9px;
+        margin: auto;
+}}
+
+@media (max-width: 768px) {
+    .hero img {
+        max-width: 100%; /* Ajusta a imagem para ocupar 80% da largura da tela em dispositivos menores */
+        margin: 10px auto; /* Centraliza a imagem e reduz o espaço */
+    }
+}
+
+@media (max-width: 768px) {
+    .section-partners {
+        background-color: #fff;
+        padding: 30px 10px;
+    }
+
+    .section-partners img {
+        max-width: 80px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-nos {
+        background-color: #fff;
+        padding: 30px 10px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-services {
+        background-color: #fff;
+        padding: 30px 10px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-text {
+        background-color: #fff;
+        padding: 30px 10px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .service {
+        flex-direction: column; /* Muda a direção do flex para coluna */
+        margin-left: 0;
+        margin: 10px 0;
+        width: 100%; /* Certifica-se de que o serviço ocupa a largura total */
+    }
+
+    .service img {
+        max-width: 100%; /* Ajusta a imagem para caber dentro do contêiner */
+        margin-right: 0; /* Remove margem direita */
+    }
+
+    .service-img-left, .service-img-right {
+        max-width: 100px; /* Reduz o tamanho das imagens para dispositivos móveis */
+        margin-top: 10px;
+    }
+
+    .service-text {
+        width: 100%; /* Ajusta a largura do texto para preencher o contêiner */
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    .testimonials {
+        background-color: #fff;
+        padding: 30px 10px; /* Ajuste do padding para telas menores */
+    }
+
+    .testimonial-container {
+        flex-direction: column; /* Muda a direção do flex para coluna */
+        align-items: center; /* Centraliza os itens verticalmente */
+        gap: 20px; /* Espaçamento entre os boxes */
+    }
+
+    .testimonial-box {
+        width: 100%; /* Ajusta a largura do box para 100% */
+        max-width: 200px; /* Define uma largura máxima para os boxes */
+        margin: auto; /* Centraliza os boxes horizontalmente */
+    }
+
+    .stars {
+        font-size: 1em; /* Reduz o tamanho das estrelas */
+    }
+
+    .testimonial-box p {
+        font-size: 16px; /* Ajusta o tamanho da fonte */
+    }
+
+    .profile img {
+        width: 40px; /* Reduz o tamanho da imagem do perfil */
+        height: 40px; /* Ajusta a altura da imagem do perfil */
+    }
+
+    .name-title h4 {
+        font-size: 0.9em; /* Reduz o tamanho da fonte do nome */
+    }
+
+    .name-title p {
+        font-size: 0.8em; /* Reduz o tamanho da fonte do título */
+    }
+}
+
+@media (max-width: 768px) {
+    .redes-sociais {
+        padding: 30px 10px; /* Ajusta o padding para telas menores */
+    }
+
+    .content {
+        padding: 15px;
+        max-width: 100%; /* Ajusta a largura máxima para 100% da tela */
+        margin: 0 10px; /* Adiciona margens laterais */
+    }
+
+    #contato {
+        padding: 40px 10px; /* Ajusta o padding para telas menores */
+    }
+
+    #contato .container {
+        flex-direction:row; /* Altera a direção do flex para coluna */
+        gap: 0px; /* Reduz o espaçamento entre as caixas */
+    }
+
+    .contato-item {
+        max-width: 50px;
+        padding: 0px;
+    }
+}
